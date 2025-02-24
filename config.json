@@ -6,14 +6,9 @@
   "startup": "application",
   "boot": "auto",
   "ingress": true,
-  "ingress_port": 8090,
-  "ports": {
-    "5000/tcp": 5000,
-    "8090/tcp": 8090
-  },
   "map": ["config", "share"],
   "options": {
-    "mqtt_broker": "mqtt://homeassistant.local"
+    "mqtt_broker": "mqtt://homeassistant"
   },
   "schema": {
     "mqtt_broker": "str"

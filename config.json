@@ -12,6 +12,10 @@
     "8090/tcp": 8090
   },
   "map": ["config", "share"],
-  "options": {},
-  "schema": {}
+  "options": {
+    "mqtt_broker": "mqtt://homeassistant.local"
+  },
+  "schema": {
+    "mqtt_broker": "str"
+  }
 }

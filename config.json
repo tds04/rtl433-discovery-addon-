@@ -1,0 +1,17 @@
+{
+  "name": "RTL_433 Discovery UI",
+  "version": "1.0.0",
+  "slug": "rtl433_discovery_ui",
+  "description": "Web UI to discover and add RTL_433 devices to Home Assistant",
+  "startup": "application",
+  "boot": "auto",
+  "ingress": true,
+  "ingress_port": 8090,
+  "ports": {
+    "5000/tcp": 5000,
+    "8090/tcp": 8090
+  },
+  "map": ["config", "share"],
+  "options": {},
+  "schema": {}
+}
